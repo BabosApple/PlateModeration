@@ -1,0 +1,27 @@
+name: Moderation
+main: UltraTeam\Moderation\Main
+author: UltraTeam
+api: 3.0.0
+version: 1.0
+
+commands:
+  mban:
+    description: "Ban a player"
+    permission: md.ban
+  munban:
+    description: "Unban a player"
+    permission: md.ban
+  warn:
+    description: "Warn a player"
+    permission: md.warn
+  delwarn:
+    description: "Delete a player warn"
+    permission: md.warn
+  viewwarn:
+    description: "View player warning"
+  mute:
+    description: "Mute a player"
+    permission: md.mute
+  unmute:
+    description: "Unmute a player"
+    permission: mb.mute
